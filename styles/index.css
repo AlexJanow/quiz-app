@@ -1,1 +1,65 @@
-@import '_base.css';
+@import "_base.css";
+
+/* header and footer*/
+.header,
+.footer {
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  background-image: linear-gradient(
+    to left bottom,
+    #f61067,
+    #fa385f,
+    #fc5059,
+    #fd6555,
+    #fc7753
+  );
+
+  padding: 10px 16px;
+  border-style: solid;
+  border-color: #0e6ba8;
+}
+
+.header h1 {
+  color: whitesmoke;
+  font-size: xx-large;
+}
+
+.header {
+  top: 0;
+}
+
+.footer {
+  bottom: 0;
+  background-color: ;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+}
+
+nav a {
+  color: #0e6ba8;
+  text-decoration: none;
+}
+.navsym1,
+.navsym2,
+.navsym3,
+.navsym4 {
+  width: 25%;
+  float: left;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  overflow: auto;
+  -webkit-filter: invert();
+}
+.navsym1,
+.navsym2,
+.navsym3,
+.navsym4:hover {
+}
