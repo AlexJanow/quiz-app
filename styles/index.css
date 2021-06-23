@@ -17,7 +17,7 @@
 
   padding: 10px 16px;
   border-style: solid;
-  border-color: #0e6ba8;
+  border-color: whitesmoke;
 }
 
 .header h1 {
@@ -39,27 +39,39 @@
   margin: 0 auto;
 }
 
-nav {
-}
-
 nav a {
   color: #0e6ba8;
   text-decoration: none;
 }
-.navsym1,
-.navsym2,
-.navsym3,
-.navsym4 {
+.navsym {
+  height: 20vw;
   width: 25%;
   float: left;
   align-items: center;
   justify-content: space-evenly;
   display: flex;
   overflow: auto;
+  background: transparent;
+  border: none;
   -webkit-filter: invert();
 }
-.navsym1,
-.navsym2,
-.navsym3,
-.navsym4:hover {
+
+.active {
+  border: dotted;
+}
+
+img {
+  width: 80%;
+}
+img:hover {
+  opacity: 0.8;
+}
+
+.content__card {
+  aspect-ratio: 3 / 2;
+  width: 100%;
+  max-width: 400px;
+  background: #f61067;
+  border-style: solid;
+  border-color: #fc7753;
 }
