@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body class="outer-grid">
+    <main>
+      <div class="header"><h1>Quiz App</h1></div>
+
+      <div class="form">
+        <div class="form__add-question-title">Add question:</div>
+        <div class="form__add-question-box">
+          <textarea
+            name="add-question"
+            id="add-question"
+            cols="30"
+            rows="10"
+            placeholder="Write your question here.."
+          ></textarea>
+        </div>
+        <div class="form__add-answer-title">Add answer:</div>
+        <div class="form__add-answer-box">
+          <textarea
+            name="add-answer"
+            id="add-answer"
+            cols="30"
+            rows="10"
+            placeholder="Write your answer here.."
+          ></textarea>
+        </div>
+        <div class="form__add-tags-title">Add tags:</div>
+        <div class="form__add-tags-box">
+          <input
+            type="text"
+            name="tags"
+            id="add-tags"
+            placeholder="dogs, funny, food,.."
+          />
+        </div>
+        <div class="form__submit-button">
+          <button type="submit">Create!</button>
+        </div>
+      </div>
+
+      <div class="footer">
+        <nav>
+          <button class="navsym">
+            <a href="index.html"><img src="/images/home.png" alt="Home" /></a>
+          </button>
+          <button class="navsym">
+            <a href="bookmark.html"
+              ><img src="/images/bookmark.png" alt="Bookmark"
+            /></a>
+          </button>
+          <button class="navsym active">
+            <a href="create.html"><img src="/images/pen.png" alt="Create" /></a>
+          </button>
+          <button class="navsym">
+            <a href="profile.html"
+              ><img src="/images/user.png" alt="Profile"
+            /></a>
+          </button>
+        </nav>
+      </div>
+    </main>
+  </body>
+</html>

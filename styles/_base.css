@@ -5,7 +5,19 @@
   margin: 0;
   padding: 0;
 }
+/*not changing font? */
+@font-face {
+  font-family: monospace;
+  src: url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap");
+}
 
-html {
-  font-family: sans-serif;
+body {
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+}
+html,
+body {
+  height: 100%;
+  overflow: ;
 }

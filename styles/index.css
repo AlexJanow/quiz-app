@@ -1,1 +1,137 @@
-@import '_base.css';
+@import "_base.css";
+@import "_profile.css";
+@import "_create.css";
+/* header and footer*/
+.header,
+.footer {
+  width: 100%;
+  padding: 10px;
+  background-image: linear-gradient(
+    to left bottom,
+    #f61067,
+    #fa385f,
+    #fc5059,
+    #fd6555,
+    #fc7753
+  );
+  flex: 0 0 auto;
+  padding: 10px 16px;
+  border-style: solid;
+  border-color: whitesmoke;
+}
+
+.outer-grid {
+  display: grid;
+  grid-template-rows: 100px auto 80px;
+  height: 100vh;
+}
+
+.header h1 {
+  color: whitesmoke;
+  font-size: xx-large;
+}
+
+.header {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  flex: auto;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  display: block;
+}
+
+.footer {
+  margin-top: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: fixed;
+  bottom: 0;
+}
+
+.card-list {
+  display: grid;
+  padding: 0.5rem;
+  overflow-y: scroll;
+  flex-direction: column;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  flex: 1 1 auto;
+  overflow-y: scroll;
+}
+
+.card:first-child {
+  margin-top: 14%;
+}
+.card:last-child {
+  margin-bottom: 20%;
+}
+
+.card {
+  display: flex;
+  position: relative;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-bookmark {
+  position: absolute;
+  top: -1.5%;
+  right: 50px;
+  width: 20%;
+}
+
+.tags a {
+  color: #fc7753;
+}
+
+.bookmark-logo {
+}
+
+nav a {
+  color: #0e6ba8;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+}
+
+.navsym {
+  align-items: center;
+  justify-content: space-evenly;
+  background: transparent;
+  border: none;
+  -webkit-filter: invert();
+}
+
+.active {
+  border: dotted;
+  border-radius: 10px;
+}
+
+img {
+  width: 50%;
+}
+
+.content__card {
+  aspect-ratio: 3 / 2;
+  width: 100%;
+  max-width: 400px;
+  background: #f61067;
+  border-style: solid;
+  border-color: #fc7753;
+  border-radius: 5%;
+}
+
+.button-answer {
+  background: #fc7753;
+  color: whitesmoke;
+  border: none;
+  margin: 1em;
+  padding: 0.4em;
+  font-size: 1.5em;
+  justify-content: center;
+  border-radius: 5px;
+}
