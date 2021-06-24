@@ -10,108 +10,41 @@
     <main>
       <div class="header"><h1>Quiz App</h1></div>
 
-      <section class="card-list">
-        <article class="card">
-          <header class="card-header">
-            <p>Number</p>
-            <h2>Question</h2>
-            <p>What is the biggest animal in the World?</p>
-            <button class="button-answer">Answer</button>
-            <div class="tags">
-              <a href="#">animals</a>
-              <a href="#">big</a>
-            </div>
-            <div class="card-bookmark">
-              <a class="bookmark-logo" href="#">
-                <img src="/images/bookmark.png" alt="bookmark-logo" />
-              </a>
-            </div>
-            <div class="question-box">
-              <div class="question-text"></div>
-            </div>
-          </header>
-        </article>
-        <article class="card">
-          <header class="card-header">
-            <p>Number</p>
-            <h2>Question</h2>
-            <p>What is the biggest animal in the World?</p>
-            <button class="button-answer">Answer</button>
-            <div class="tags">
-              <a href="#">animals</a>
-              <a href="#">big</a>
-            </div>
-            <div class="card-bookmark">
-              <a class="bookmark-logo" href="#">
-                <img src="/images/bookmark.png" alt="bookmark-logo" />
-              </a>
-            </div>
-            <div class="question-box">
-              <div class="question-text"></div>
-            </div>
-          </header>
-        </article>
-        <article class="card">
-          <header class="card-header">
-            <p>Number</p>
-            <h2>Question</h2>
-            <p>What is the biggest animal in the World?</p>
-            <button class="button-answer">Answer</button>
-            <div class="tags">
-              <a href="#">animals</a>
-              <a href="#">big</a>
-            </div>
-            <div class="card-bookmark">
-              <a class="bookmark-logo" href="#">
-                <img src="/images/bookmark.png" alt="bookmark-logo" />
-              </a>
-            </div>
-            <div class="question-box">
-              <div class="question-text"></div>
-            </div>
-          </header>
-        </article>
-        <article class="card">
-          <header class="card-header">
-            <p>Number</p>
-            <h2>Question</h2>
-            <p>What is the biggest animal in the World?</p>
-            <button class="button-answer">Answer</button>
-            <div class="tags">
-              <a href="#">animals</a>
-              <a href="#">big</a>
-            </div>
-            <div class="card-bookmark">
-              <a class="bookmark-logo" href="#">
-                <img src="/images/bookmark.png" alt="bookmark-logo" />
-              </a>
-            </div>
-            <div class="question-box">
-              <div class="question-text"></div>
-            </div>
-          </header>
-        </article>
-        <article class="card">
-          <header class="card-header">
-            <p>Number</p>
-            <h2>Question</h2>
-            <p>What is the biggest animal in the World?</p>
-            <button class="button-answer">Answer</button>
-            <div class="tags">
-              <a href="#">animals</a>
-              <a href="#">big</a>
-            </div>
-            <div class="card-bookmark">
-              <a class="bookmark-logo" href="#">
-                <img src="/images/bookmark.png" alt="bookmark-logo" />
-              </a>
-            </div>
-            <div class="question-box">
-              <div class="question-text"></div>
-            </div>
-          </header>
-        </article>
-      </section>
+      <div class="form">
+        <div class="form__add-question-title">Add question:</div>
+        <div class="form__add-question-box">
+          <textarea
+            name="add-question"
+            id="add-question"
+            cols="30"
+            rows="10"
+            placeholder="Write your question here.."
+          ></textarea>
+        </div>
+        <div class="form__add-answer-title">Add answer:</div>
+        <div class="form__add-answer-box">
+          <textarea
+            name="add-answer"
+            id="add-answer"
+            cols="30"
+            rows="10"
+            placeholder="Write your answer here.."
+          ></textarea>
+        </div>
+        <div class="form__add-tags-title">Add tags:</div>
+        <div class="form__add-tags-box">
+          <input
+            type="text"
+            name="tags"
+            id="add-tags"
+            placeholder="dogs, funny, food,.."
+          />
+        </div>
+        <div class="form__submit-button">
+          <button type="submit">Create!</button>
+        </div>
+      </div>
+
       <div class="footer">
         <nav>
           <button class="navsym">
