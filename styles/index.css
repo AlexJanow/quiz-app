@@ -77,16 +77,25 @@
 
 .card-bookmark {
   position: absolute;
-  top: -1.5%;
+  top: -0.3%;
   right: 50px;
   width: 20%;
 }
 
-.tags a {
-  color: #fc7753;
+.card-bookmark-filled {
+  position: absolute;
+  top: -0.3%;
+  right: 50px;
+  width: 20%;
+  display: block;
 }
 
-.bookmark-logo {
+.hidden {
+  display: none;
+}
+
+.tags a {
+  color: #fc7753;
 }
 
 nav a {
