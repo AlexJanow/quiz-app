@@ -80,6 +80,7 @@
   top: -0.3%;
   right: 50px;
   width: 20%;
+  z-index: 100;
 }
 
 .card-bookmark-filled {
@@ -143,4 +144,15 @@ img {
   font-size: 1.5em;
   justify-content: center;
   border-radius: 5px;
+}
+
+.answer {
+  border: 5px dotted #fc7753;
+  text-align: center;
+  padding: 3%;
+  display: none;
+}
+
+.visible {
+  display: block;
 }
