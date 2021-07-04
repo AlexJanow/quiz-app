@@ -18,6 +18,7 @@
   padding: 10px 16px;
   border-style: solid;
   border-color: whitesmoke;
+  z-index: 100;
 }
 
 .outer-grid {
@@ -37,7 +38,7 @@
   flex: auto;
   position: fixed;
   top: 0;
-  z-index: 100;
+  z-index: 9;
   display: block;
 }
 
@@ -80,7 +81,7 @@
   top: -0.3%;
   right: 50px;
   width: 20%;
-  z-index: 100;
+  z-index: 2;
 }
 
 .card-bookmark-filled {
@@ -155,4 +156,8 @@ img {
 
 .visible {
   display: block;
+}
+
+.card-header p {
+  text-decoration: none;
 }

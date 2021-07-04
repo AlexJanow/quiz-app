@@ -9,13 +9,25 @@
   <body class="outer-grid">
     <main>
       <div class="header"><h1>Quiz App</h1></div>
-
-      <div class="form">
+      <form id="submit" action="submit">
+        <fieldset class="form">
+          <legend><h1>Create</h1></legend>
+          <label for="addQuestion">add question</label>
+          <input type="text" id="addQuestion" />
+          <label for="addAnswer">add answer</label>
+          <input type="text" id="addAnswer" />
+          <label for="addTags">add tags</label>
+          <input type="text" id="addTags" />
+          <input class="form__submit-button" type="submit" value="submit" />
+        </fieldset>
+      </form>
+      <!--       <div class="form">
         <div class="form__add-question-title">Add question:</div>
         <div class="form__add-question-box">
           <textarea
             name="add-question"
             id="add-question"
+            type="submit"
             cols="30"
             rows="10"
             placeholder="Write your question here.."
@@ -44,7 +56,7 @@
           <button type="submit">Create!</button>
         </div>
       </div>
-
+ -->
       <div class="footer">
         <nav>
           <button class="navsym">
@@ -66,5 +78,6 @@
         </nav>
       </div>
     </main>
+    <script src="create.js"></script>
   </body>
 </html>
