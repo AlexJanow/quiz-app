@@ -43,7 +43,6 @@ body {
   margin: 3%;
   padding: 3%;
   width: 40vw;
-  word-wrap: ;
 }
 
 .profile__skills-title {
@@ -63,6 +62,14 @@ body {
 }
 
 /*slider night mode */
+
+/*darkmodeBox*/
+.darkmodeBox {
+  position: relative;
+
+  margin: 3%;
+  padding: 3%;
+}
 
 /*box around slider */
 .switch {
