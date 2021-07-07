@@ -18,6 +18,7 @@
   padding: 10px 16px;
   border-style: solid;
   border-color: whitesmoke;
+  z-index: 100;
 }
 
 .outer-grid {
@@ -37,7 +38,7 @@
   flex: auto;
   position: fixed;
   top: 0;
-  z-index: 100;
+  z-index: 9;
   display: block;
 }
 
@@ -77,16 +78,26 @@
 
 .card-bookmark {
   position: absolute;
-  top: -1.5%;
+  top: -0.3%;
   right: 50px;
   width: 20%;
+  z-index: 2;
+}
+
+.card-bookmark-filled {
+  position: absolute;
+  top: -0.3%;
+  right: 50px;
+  width: 20%;
+  display: block;
+}
+
+.hidden {
+  display: none;
 }
 
 .tags a {
   color: #fc7753;
-}
-
-.bookmark-logo {
 }
 
 nav a {
@@ -134,4 +145,19 @@ img {
   font-size: 1.5em;
   justify-content: center;
   border-radius: 5px;
+}
+
+.answer {
+  border: 5px dotted #fc7753;
+  text-align: center;
+  padding: 3%;
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.card-header p {
+  text-decoration: none;
 }

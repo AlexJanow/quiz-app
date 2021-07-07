@@ -37,7 +37,21 @@
   display: flex;
   justify-content: center;
 }
-.form__submit-button button {
+
+form label {
+  color: #fc7753;
+  font-size: 1rem;
+}
+legend {
+  color: #fc7753;
+}
+
+form [type="text"] {
+  height: 15vh;
+  width: auto;
+}
+
+form [type="submit"] {
   background: #fc7753;
   color: whitesmoke;
   border: none;
