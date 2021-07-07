@@ -46,7 +46,7 @@ legend {
   color: #fc7753;
 }
 
-form [type="text"] {
+form [type="textarea"] {
   height: 15vh;
   width: auto;
 }

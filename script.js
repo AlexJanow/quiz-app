@@ -18,3 +18,4 @@ for (let j = 0; j < btn.length; j++) {
     answer[j].classList.toggle("visible");
   });
 }
+¥
